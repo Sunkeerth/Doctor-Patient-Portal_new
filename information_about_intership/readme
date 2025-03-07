@@ -1,0 +1,25 @@
+✅ Features & Implementation Plan
+Doctor Login via QR Code or Normal Credentials
+
+A doctor can scan a QR code to log in.
+Alternatively, they can log in with email/password.
+If QR code details match, the doctor is successfully authenticated.
+Patient Registration & Login (Normal Method Only)
+
+Patients register with their email and password.
+Patients cannot log in using a QR code.
+Doctor Search & Profile Management
+
+Patients search doctors using filters (specialty, location, name).
+Each doctor profile shows name, specialty, experience, location, and availability slots.
+Appointment Booking System
+
+Doctors set available consultation slots.
+Patients book an available slot.
+Prevent double booking using MongoDB transactions.
+Patients can cancel appointments.
+Email notifications (using Nodemailer) for bookings and cancellations.
+Web Interface (React.js)
+
+Patient Portal: Search doctors, book/cancel appointments.
+Doctor Dashboard: Set availability, view appointments.
